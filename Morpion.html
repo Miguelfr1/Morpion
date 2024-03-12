@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Morpion</title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" type="text/css" />   
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Morpion</h1><br/>
+        
+        <div id="gameGrid">
+            <div class="carre" onclick="CliqueCarre(this)"></div>
+            <div class="carre" onclick="CliqueCarre(this)"></div>
+            <div class="carre" onclick="CliqueCarre(this)"></div>
+            <div class="carre" onclick="CliqueCarre(this)"></div>
+            <div class="carre" onclick="CliqueCarre(this)"></div>
+            <div class="carre" onclick="CliqueCarre(this)"></div>
+            <div class="carre" onclick="CliqueCarre(this)"> </div>
+            <div class="carre" onclick="CliqueCarre(this)"></div>
+            <div class="carre" onclick="CliqueCarre(this)"></div>
+           
+        </div>
+
+        <div id="gameInfo">
+            <p id="titrejeu">Cliquez sur la grille pour jouer. <br>
+            Tour du joueur bleu</p>
+            <p><span style="color: blue;"> Bleu :</span>
+                 <span id="score1"> 0 </span> 
+                  <span style="color: red;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rouge :</span>
+                   <span id="score0"> 0 </span></p>
+            <button onclick="nouvellePartie()">Nouvelle Partie</button>
+        </div>
+    </div>
+</body>
+
+</html>
