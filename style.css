@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MaSignatureFont&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 
 body {
     background: linear-gradient(to bottom right, #4b6cb7, #182848);
@@ -102,4 +105,12 @@ h1:hover {
     color: #ff4e33;
     border-color: #ff4e33;
     transform: scale(1.05);
+}
+
+#signature {
+    text-align: center;
+    color: #ff4e33;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
 }
